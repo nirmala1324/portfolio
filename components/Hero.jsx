@@ -16,18 +16,17 @@ import Socials from "./Socials";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-5 xl:py-24 h-[84vh] xl:pt-10 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* Text */}
           <div className="flex max-w-[650px] flex-col justify-center xl:mx-0 text-center xl:text-left mx-auto">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Web Developer
+              Final Year Informatics Student
             </div>
             <h1 className="h1 mb-8">Hello, my name is Nirmala Puspa Ratna</h1>
-            <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief Description with insights into myself, my vocational
-              journey, and what I engage in professionally.
+            <p className="subtitle max-w-[600px] mx-auto xl:mx-0">
+            Welcome to my corner of the web! I'm an eighth-semester Information Technology (Informatics) student with a knack for technology, web development, and 3D design. As a critical thinker and a collaborative team player, I am on the lookout for exciting internship opportunities to contribute to innovative projects.
             </p>
             {/* Button */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
