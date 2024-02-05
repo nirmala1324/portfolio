@@ -166,7 +166,7 @@ const About = () => {
   };
 
   return (
-    <section className="xl:h-[860px] pt-[100px] pb-12 xl:py-24">
+    <section className="xl:h-[860px] mt-[400px] xl:pt-[0px] pb-12 ">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About Me
@@ -353,7 +353,7 @@ const About = () => {
                       </div>
                       {/* Hard Skills */}
                       <div className="flex flex-col md:w-[3/4]">
-                        <h4 className="text-xl font-semibold mb-2 md:xl:text-left">
+                        <h4 className="text-xl font-semibold mb-2 xl:text-left">
                           Hard Skills
                         </h4>
                         <div className="border-b border-border mb-4"></div>
