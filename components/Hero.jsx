@@ -3,9 +3,8 @@ import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 
 import {
-  RiBriefcase4Fill,
-  RiTeamFill,
   RiTodoFill,
+  RiGraduationCapFill,
   RiArrowDownSLine,
 } from "react-icons/ri";
 
@@ -18,17 +17,9 @@ import Socials from "./Socials";
 const RESUME_URL = "/nirmala_pusparatna.pdf";
 
 const Hero = () => {
-  const downloadCvAtUrl = (url) => {
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", url);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
 
   return (
-    <section className="py-5 xl:py-10 h-[90vh] md:h-[55vh] bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="md:py-5 md:h-[20vh] xl:h-[48vh] md:mt-6 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* Text */}
@@ -45,7 +36,7 @@ const Hero = () => {
               internship opportunities to contribute to innovative projects.
             </p>
             {/* Button */}
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-[25px]">
               <Link href="/contact">
                 <Button className="gap-x-2">
                   Contact Me <Send size={18} />
@@ -69,25 +60,19 @@ const Hero = () => {
             {/* Badge 1 */}
             <Badge
               containerStyles="absolute top-[22%] -left-[7rem]"
-              icon={<RiBriefcase4Fill />}
-              endCountNum={3}
-              badgeText={"Years Of Experience"}
+              icon={<RiGraduationCapFill />}
+              endCountNum={3.90}
+              badgeText={"Total GPA"}
             />
             {/* Badge 2 */}
             <Badge
               containerStyles="absolute top-[58%] -right-[3.5rem]"
               icon={<RiTodoFill />}
-              endCountNum={4}
-              badgeText={"Finished Projects"}
+              endCountNum={8}
+              badgeText={"Projects"}
             />
             {/* Badge 3 */}
-            <Badge
-              containerStyles="absolute top-[80%] -left-[1rem]"
-              icon={<RiTeamFill />}
-              endCountNum={3}
-              badgeText={"Happy Clients"}
-            />
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat -top-1 -right-2">
+            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat top-8 -right-2">
               <DevImg
                 containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat"
                 imgSrc="/hero/developer.svg"

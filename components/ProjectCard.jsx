@@ -41,6 +41,8 @@ const ProjectCard = ({ project }) => {
         </Badge>
         <h4 className="h4 mb-1">{project.name}</h4>
         <p className="subtitle text-muted-foreground text-lg">{project.description}</p>
+        <div className="border-b border-border mb-4"></div>
+        <p><b>{project.year}</b></p>
       </div>
     </Card>
   );

@@ -7,15 +7,15 @@ import Link from "next/link";
 // Icons and Path array of objects
 const icons = [
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/nirmala-pusparatna/",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/nirmala1324",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://dribbble.com/nirmala1324",
     name: <RiDribbbleFill />,
   },
 ];

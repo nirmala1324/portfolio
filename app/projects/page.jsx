@@ -6,6 +6,16 @@ import ProjectCard from "@/components/ProjectCard";
 // Data
 const projectData = [
   {
+    image: "/work/8.png",
+    category: "React JS",
+    name: "Portfolio Website",
+    description:
+      "Introducing the Professional Portfolio—a clean and neat space to show off school achievements, skills, and cool projects. The simple homepage starts with a professional hello, then goes to education and skills. Easy-to-find buttons let you download a resume and see my best projects. It's made to efficiently introduce myself to possible opportunities.",
+    link: "/",
+    github: "https://github.com/nirmala1324/portfolio.git",
+    year: "February 2024",
+  },
+  {
     image: "/work/1.png",
     category: "Flask",
     name: "Brush&Palette",
@@ -60,7 +70,7 @@ const projectData = [
     category: "Unity Game",
     name: "7 Deadly Sins: Battle Within",
     description:
-      "Captivating first-person shooter set in fantasy worlds representing the seven deadly sins. Players embody a character seeking peace and embark on an exploration journey with unique goals in each level. The game seamlessly blends curiosity, dynamic exploration, and thematic depth for an immersive and enjoyable experience.",
+      "Captivating first-person shooter set in fantasy worlds representing the seven deadly sins. Players embody a character seeking peace and embark on an exploration journey with unique goals in each level, which each level representing different sin. The game seamlessly blends curiosity, dynamic exploration, and thematic depth for an immersive and enjoyable gaming experience.",
     link: "/",
     github: "/",
     document:

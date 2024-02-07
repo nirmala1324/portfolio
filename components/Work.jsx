@@ -20,6 +20,16 @@ import { Sliders } from "lucide-react";
 // Data
 const projectData = [
   {
+    image: "/work/8.png",
+    category: "React JS",
+    name: "Portfolio Website",
+    description:
+      "Introducing the Professional Portfolio—a clean and neat space to show off school achievements, skills, and cool projects. The simple homepage starts with a professional hello, then goes to education and skills. Easy-to-find buttons let you download a resume and see my best projects. It's made to efficiently introduce myself to possible opportunities.",
+    link: "/",
+    github: "https://github.com/nirmala1324/portfolio.git",
+    year: "February 2024",
+  },
+  {
     image: "/work/1.png",
     category: "Python | Flask",
     name: "Brush&Palette",
@@ -74,7 +84,7 @@ const projectData = [
     category: "FPS Game | Unity",
     name: "7 Deadly Sins: Battle Within",
     description:
-      "Captivating first-person shooter set in fantasy worlds representing the seven deadly sins. Players embody a character seeking peace and embark on an exploration journey with unique goals in each level. The game seamlessly blends curiosity, dynamic exploration, and thematic depth for an immersive and enjoyable experience.",
+      "Captivating first-person shooter set in fantasy worlds representing the seven deadly sins. Players embody a character seeking peace and embark on an exploration journey with unique goals in each level. The game seamlessly blends curiosity, dynamic exploration, and thematic depth for an immersive and enjoyable gaming experience.",
     link: "/",
     github: "/",
     document:
@@ -99,10 +109,9 @@ const Work = () => {
       <div className="container mx-auto">
         {/* Text */}
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
-          <h2 className="section-title mb-4">Latest Projects</h2>
+          <h2 className="section-title mb-4">Projects</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            Here are all projects I handled this past 2 years. From the projects I handled in second year in univ, I realize that I am interested in app development especially in software development. And in the third year, it is clear that I am more interested in web development. Beside that, I also enjoy 3D designing and developing interest in game development.
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>
@@ -111,7 +120,7 @@ const Work = () => {
         {/* Slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
-            className="h-[660px]"
+            className="h-[710px]"
             slidesPerView={1}
             breakpoints={{
               640: {
