@@ -19,7 +19,7 @@ const RESUME_URL = "/nirmala_pusparatna.pdf";
 const Hero = () => {
 
   return (
-    <section className="md:py-5 md:h-[20vh] xl:h-[48vh] md:mt-6 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="xl:py-5 h-[900px] xl:h-[76vh] md:mt-6 flex items-center bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* Text */}

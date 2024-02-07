@@ -27,7 +27,6 @@ const projectData = [
       "Introducing the Professional Portfolio—a clean and neat space to show off school achievements, skills, and cool projects. The simple homepage starts with a professional hello, then goes to education and skills. Easy-to-find buttons let you download a resume and see my best projects. It's made to efficiently introduce myself to possible opportunities.",
     link: "/",
     github: "https://github.com/nirmala1324/portfolio.git",
-    year: "February 2024",
   },
   {
     image: "/work/1.png",
@@ -37,7 +36,6 @@ const projectData = [
       "An art gallery platform for clients to explore art, make secure purchases, and manage accounts. Admins get insights, purchase analysis, and tools for user, artist, and artwork management. Brush&Palette ensures a seamless and secure experience for both art enthusiasts and administrators.",
     link: "https://brushandpalette.glitch.me/",
     github: "https://github.com/nirmala1324/brush_and_palette.git",
-    year: "29 Nov - 19 Dec 2023",
   },
   {
     image: "/work/2.png",
@@ -47,7 +45,6 @@ const projectData = [
       "Sweeter is a social app-like website that functions like an app, offering users the ability to register, log in, and edit their accounts. Users can post text statuses and connect with others by reacting to others' posts with options such as like, star, and heart. The website also maintains a log of users' posted text on their account page.",
     link: "https://sweeter-sweetest.glitch.me/",
     github: "https://github.com/nirmala1324/sweeter.git",
-    year: "Nov 2023",
   },
   {
     image: "/work/3.png",
@@ -57,7 +54,6 @@ const projectData = [
       "Sparta is a personal word bank web that stores words meaning the user add. User can search the word and the app will provide the meanings using merriam-webster dictionary api, give the word suggestion if there is no match in the api, then user can save it inside the app, after that user can also add their own sentence example of the certain word.",
     link: "https://wordlist-project.glitch.me/",
     github: "https://github.com/nirmala1324/wordlist.git",
-    year: "Oct 2023",
   },
   {
     image: "/work/4.png",
@@ -67,7 +63,6 @@ const projectData = [
       "UPTD Puskesmas Kertasemaya's website serves as a comprehensive hub for information about the public health center. Visitors can explore detail information on its profile, services, and innovations. Users can find news and articles related to health, browse a gallery showcasing center activities, and access contact details for communication.",
     link: "https://www.pkmkertasemaya.com/",
     github: "https://github.com/Ariiq354/puskesmas_kertasemaya.git",
-    year: "August - September 2023",
   },
   {
     image: "/work/5.png",
@@ -77,7 +72,6 @@ const projectData = [
       "Bunny Library is a library management software for admins and clients. Admins can efficiently handle book and user data, while clients access a user-friendly interface for browsing and borrowing books. The system automates return date calculations and includes a late return fee feature, streamlining library operations for enhanced efficiency.",
     link: "/",
     github: "https://github.com/nirmala1324/bunny_library.git",
-    year: "April - May 2023",
   },
   {
     image: "/work/6.png",
@@ -89,7 +83,6 @@ const projectData = [
     github: "/",
     document:
       "https://media.licdn.com/dms/document/media/D562DAQF4eTZs8TrmIg/profile-treasury-document-pdf-analyzed/0/1686931955684?e=1707955200&v=beta&t=N1ewH3UjqhzUI4HvInzm3HhHPhsObM16rfmcyYyz7dg",
-    year: "April - May 2023",
   },
   {
     image: "/work/7.png",
@@ -99,13 +92,12 @@ const projectData = [
       "Nevermore Library is a user-friendly library management system for both admins and clients. Admins can easily manage book and user data, while clients enjoy a smooth browsing and borrowing experience. The system automates return date calculations and incorporates a late return fee, streamlining library operations for optimal efficiency.",
     link: "http://nevermorelibrary.infinityfreeapp.com/",
     github: "https://github.com/nirmala1324/nevermore_library.git",
-    year: "5 - 23 Dec 2022",
   },
 ];
 
 const Work = () => {
   return (
-    <section className="relative mb-36 xl:mb-[500px]">
+    <section className="relative mb-[150px] xl:mb-[500px] ">
       <div className="container mx-auto">
         {/* Text */}
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
