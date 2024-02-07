@@ -7,8 +7,8 @@ const Logo = () => {
   const { theme } = useTheme();
 
   // Set variable for dark and light logo
-  const lightModeLogo = "/Logo.svg";
-  const darkModeLogo = "/Logo_dark.svg";
+  const lightModeLogo = "/logo.svg";
+  const darkModeLogo = "/logo_dark.svg";
 
   // If statement fot logo for each mode
   const logoSrc = theme === "dark" ? darkModeLogo : lightModeLogo;
