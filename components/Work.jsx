@@ -24,7 +24,7 @@ const projectData = [
     category: "Python | Flask",
     name: "Brush&Palette",
     description:
-      "Brush&Palette is a sophisticated art gallery platform with dual functionality for clients and administrators. On the client side, users can explore an extensive art showcase, access artist bios, make secure kind like art purchases, and manage their accounts, including viewing purchase history. The admin side features a comprehensive dashboard offering insights into total arts, artists, purchases, and user data. Admins can utilize charts and tables for in-depth purchase analysis, manage users, artists, and artworks data, and oversee a meticulous purchase approval process with detailed previews and payment proofs. ArtHub Gallery ensures a seamless and secure experience, providing both art enthusiasts and administrators with powerful tools for exploration, management, and decision-making.",
+      "An art gallery platform for clients to explore art, make secure purchases, and manage accounts. Admins get insights, purchase analysis, and tools for user, artist, and artwork management. Brush&Palette ensures a seamless and secure experience for both art enthusiasts and administrators.",
     link: "https://brushandpalette.glitch.me/",
     github: "https://github.com/nirmala1324/brush_and_palette.git",
     year: "29 Nov - 19 Dec 2023",
@@ -34,7 +34,7 @@ const projectData = [
     category: "Python | Flask",
     name: "Sweeter: Social App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Sweeter is a social app-like website that functions like an app, offering users the ability to register, log in, and edit their accounts. Users can post text statuses and connect with others by reacting to others' posts with options such as like, star, and heart. The website also maintains a log of users' posted text on their account page.",
     link: "https://sweeter-sweetest.glitch.me/",
     github: "https://github.com/nirmala1324/sweeter.git",
     year: "Nov 2023",
@@ -44,7 +44,7 @@ const projectData = [
     category: "Python | Flask",
     name: "Sparta: Word List",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Sparta is a personal word bank web that stores words meaning the user add. User can search the word and the app will provide the meanings using merriam-webster dictionary api, give the word suggestion if there is no match in the api, then user can save it inside the app, after that user can also add their own sentence example of the certain word.",
     link: "https://wordlist-project.glitch.me/",
     github: "https://github.com/nirmala1324/wordlist.git",
     year: "Oct 2023",
@@ -54,7 +54,7 @@ const projectData = [
     category: "React JS",
     name: "UPTD Puskesmas Kertasemaya",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "UPTD Puskesmas Kertasemaya's website serves as a comprehensive hub for information about the public health center. Visitors can explore detail information on its profile, services, and innovations. Users can find news and articles related to health, browse a gallery showcasing center activities, and access contact details for communication.",
     link: "https://www.pkmkertasemaya.com/",
     github: "https://github.com/Ariiq354/puskesmas_kertasemaya.git",
     year: "August - September 2023",
@@ -64,7 +64,7 @@ const projectData = [
     category: "Java - Library Management Software",
     name: "Bunny Library",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Bunny Library is a library management software for admins and clients. Admins can efficiently handle book and user data, while clients access a user-friendly interface for browsing and borrowing books. The system automates return date calculations and includes a late return fee feature, streamlining library operations for enhanced efficiency.",
     link: "/",
     github: "https://github.com/nirmala1324/bunny_library.git",
     year: "April - May 2023",
@@ -74,7 +74,7 @@ const projectData = [
     category: "FPS Game | Unity",
     name: "7 Deadly Sins: Battle Within",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Captivating first-person shooter set in fantasy worlds representing the seven deadly sins. Players embody a character seeking peace and embark on an exploration journey with unique goals in each level. The game seamlessly blends curiosity, dynamic exploration, and thematic depth for an immersive and enjoyable experience.",
     link: "/",
     github: "/",
     document:
@@ -86,7 +86,7 @@ const projectData = [
     category: "PHP Native",
     name: "Nevermore Library",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Nevermore Library is a user-friendly library management system for both admins and clients. Admins can easily manage book and user data, while clients enjoy a smooth browsing and borrowing experience. The system automates return date calculations and incorporates a late return fee, streamlining library operations for optimal efficiency.",
     link: "http://nevermorelibrary.infinityfreeapp.com/",
     github: "https://github.com/nirmala1324/nevermore_library.git",
     year: "5 - 23 Dec 2022",
@@ -95,7 +95,7 @@ const projectData = [
 
 const Work = () => {
   return (
-    <section className="relative mb-12 xl:mb-48">
+    <section className="relative mb-36 xl:mb-[500px]">
       <div className="container mx-auto">
         {/* Text */}
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
@@ -111,7 +111,7 @@ const Work = () => {
         {/* Slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
-            className="h-[480px]"
+            className="h-[660px]"
             slidesPerView={1}
             breakpoints={{
               640: {
