@@ -14,7 +14,19 @@ import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
 
+// URL to my CV
+const RESUME_URL = "/nirmala_pusparatna.pdf";
+
 const Hero = () => {
+  const downloadCvAtUrl = (url) => {
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", url);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+
   return (
     <section className="py-5 xl:py-10 h-[90vh] md:h-[55vh] bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
@@ -26,7 +38,11 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-8">Hello, my name is Nirmala Puspa Ratna</h1>
             <p className="subtitle max-w-[600px] mx-auto xl:mx-0">
-            Welcome to my corner of the web! I'm an eighth-semester Information Technology (Informatics) student with a knack for technology, web development, and 3D design. As a critical thinker and a collaborative team player, I am on the lookout for exciting internship opportunities to contribute to innovative projects.
+              Welcome to my corner of the web! I'm an eighth-semester
+              Information Technology (Informatics) student with a knack for
+              technology, web development, and 3D design. As a critical thinker
+              and a collaborative team player, I am on the lookout for exciting
+              internship opportunities to contribute to innovative projects.
             </p>
             {/* Button */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -35,8 +51,11 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV <Download size={18} />
+              <Button
+                variant="secondary"
+                className="gap-x-2"
+              >
+                <a href="/hero/nirmala_pusparatna-resume.pdf" download="Resume of Nirmala Pusparatna.pdf">Download CV</a><Download size={18} />
               </Button>
             </div>
             {/* Socials */}
