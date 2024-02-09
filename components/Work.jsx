@@ -15,13 +15,12 @@ import { Pagination } from "swiper/modules";
 
 // Components
 import ProjectCard from "./ProjectCard";
-import { Sliders } from "lucide-react";
 
 // Data
 const projectData = [
   {
     image: "/work/8.png",
-    category: "React JS",
+    category: "Next JS",
     name: "Portfolio Website",
     description:
       "Introducing the Professional Portfolio—a clean and neat space to show off school achievements, skills, and cool projects. The simple homepage starts with a professional hello, then goes to education and skills. Easy-to-find buttons let you download a resume and see my best projects. It's made to efficiently introduce myself to possible opportunities.",
