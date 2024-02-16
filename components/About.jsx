@@ -114,7 +114,7 @@ const skillData = [
       },
       {
         name: "Frameworks",
-        component: "Flask, React",
+        component: "Flask, Next JS",
       },
       {
         name: "Programming Language",
